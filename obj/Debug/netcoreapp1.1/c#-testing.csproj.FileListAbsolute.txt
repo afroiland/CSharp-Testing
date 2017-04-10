@@ -1,0 +1,8 @@
+/Users/afroiland/Desktop/C#-dotnet/c#-testing/bin/Debug/netcoreapp1.1/c#-testing.deps.json
+/Users/afroiland/Desktop/C#-dotnet/c#-testing/bin/Debug/netcoreapp1.1/c#-testing.runtimeconfig.json
+/Users/afroiland/Desktop/C#-dotnet/c#-testing/bin/Debug/netcoreapp1.1/c#-testing.runtimeconfig.dev.json
+/Users/afroiland/Desktop/C#-dotnet/c#-testing/bin/Debug/netcoreapp1.1/c#-testing.dll
+/Users/afroiland/Desktop/C#-dotnet/c#-testing/bin/Debug/netcoreapp1.1/c#-testing.pdb
+/Users/afroiland/Desktop/C#-dotnet/c#-testing/obj/Debug/netcoreapp1.1/c#-testing.AssemblyInfo.cs
+/Users/afroiland/Desktop/C#-dotnet/c#-testing/obj/Debug/netcoreapp1.1/c#-testing.dll
+/Users/afroiland/Desktop/C#-dotnet/c#-testing/obj/Debug/netcoreapp1.1/c#-testing.pdb
