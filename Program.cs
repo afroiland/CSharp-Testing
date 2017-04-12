@@ -7,9 +7,8 @@ namespace c__testing
         static void Main(string[] args)
         {
             double first = double.Parse(Console.ReadLine());
-            double second = double.Parse(Console.ReadLine());
 
-            double result = first + second;
+            double result = first * 2;
 
             Console.WriteLine(result);
 
