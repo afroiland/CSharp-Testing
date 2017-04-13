@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace c__testing
 {
@@ -6,12 +7,11 @@ namespace c__testing
     {
         static void Main(string[] args)
         {
-            int num = 0;
-            while (num < 8) {
-            Console.WriteLine(num);
-            num++;
+            int add(int a, int b) {
+                return a + b;
             }
-            // Console.ReadLine();
+            int result = add(1, 2);
+            Console.WriteLine(result);
         }
     }
 }
