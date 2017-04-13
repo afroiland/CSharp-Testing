@@ -7,11 +7,14 @@ namespace c__testing
     {
         static void Main(string[] args)
         {
-            int add(int a, int b) {
-                return a + b;
-            }
-            int result = add(1, 2);
-            Console.WriteLine(result);
+            int number = 20;
+            AddFive(ref number);
+            Console.WriteLine(number);
+            Console.ReadKey();
+        }
+        static void AddFive(ref int number)
+        {
+          number = number + 5;
         }
     }
 }
