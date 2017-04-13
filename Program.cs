@@ -6,11 +6,7 @@ namespace c__testing
     {
         static void Main(string[] args)
         {
-            double first = double.Parse(Console.ReadLine());
-
-            double result = first * 2;
-
-            Console.WriteLine(result);
+            Console.WriteLine("test");
 
             Console.ReadLine();
         }
