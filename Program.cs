@@ -6,9 +6,12 @@ namespace c__testing
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("test");
-
-            Console.ReadLine();
+            int num = 0;
+            while (num < 8) {
+            Console.WriteLine(num);
+            num++;
+            }
+            // Console.ReadLine();
         }
     }
 }
