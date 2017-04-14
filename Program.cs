@@ -7,15 +7,23 @@ namespace c__testing
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("enter the number one");
-            string userValue = Console.ReadLine();
-            string message = (userValue == "1") ? "success" : "failure";
-            Console.WriteLine("You have achieved " + message);
-            Console.ReadLine();
+
+            
         }
 
 
-        // Easier way to create array, also Array.Sort():
+        // If statement syntax, also {0}, {1} thing:
+        //
+        // {
+        //     Console.WriteLine("enter the number one");
+        //     string userValue = Console.ReadLine();
+        //     string message = (userValue == "1") ? "success" : "failure";
+        //     Console.WriteLine("You entered {0}, achieving {1}.", userValue, message);
+        //     Console.ReadLine();
+        // }
+
+
+        // Easier way to create array, also Array.Sort() usage:
         //
         // {
         //     int[] numbers = {4, 3, 8, 0, 5};
