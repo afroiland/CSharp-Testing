@@ -20,6 +20,7 @@ namespace c__testing
 
         private static bool MainMenu()
         {
+            Console.Clear();
             Console.WriteLine("Choose an option:");
             Console.WriteLine("1) Option 1");
             Console.WriteLine("2) Option 2");
@@ -47,13 +48,43 @@ namespace c__testing
 
         private static void PrintNumbers()
         {
+            Console.Clear();
             Console.WriteLine("Print numbers");
+            Console.Write("Type a number: ");
+            int result = int.Parse(Console.ReadLine());
+            int counter = 1;
+            while (counter < result + 1)
+            {
+                Console.Write(counter);
+                Console.Write("-");
+                counter++;
+            }
             Console.ReadLine();
         }
 
         private static void GuessingGame()
         {
-            Console.WriteLine("Guessing game");
+            Console.Clear();
+            Console.WriteLine("Guessing game");  
+
+            Random myRandom = new Random();
+            int randomNumber = myRandom.Next(1, 11);
+
+            int guesses = 0;
+            bool incorrect = true;
+
+            do
+            {
+                Console.WriteLine("Guess bewtween 1 and 10: ");
+                string result = Console.ReadLine();
+                guesses++;
+                if (result == randomNumber.ToString())
+                    incorrect = false;
+                else
+                    Console.WriteLine("Incorrect");
+            } while (incorrect);
+            Console.WriteLine("Correct, after {0} guesses.", guesses);
+
             Console.ReadLine();
         }
 
