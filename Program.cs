@@ -6,45 +6,49 @@ namespace c__testing
     class Program
     {
         static void Main(string[] args)
+        {
+            Console.WriteLine("Test");
+
+        }
 
 
         // While iteration
-
-        {
-            bool displayMenu = true;
-            while (displayMenu == true)
-            {
-                displayMenu = MainMenu();
-            }
-        }
-
-        private static bool MainMenu()
-        {
-            Console.Clear();
-            Console.WriteLine("Choose an option:");
-            Console.WriteLine("1) Option 1");
-            Console.WriteLine("2) Option 2");
-            Console.WriteLine("3) Exit");
-            string result = Console.ReadLine();
-            if (result == "1")
-            {
-                PrintNumbers();
-                return true;
-            }
-            else if (result == "2")
-            {
-                GuessingGame();
-                return true;
-            }
-            else if (result == "3")
-            {
-                return false;
-            }
-            else
-            {
-                return true;
-            }
-        }
+        //
+        // {
+        //     bool displayMenu = true;
+        //     while (displayMenu == true)
+        //     {
+        //         displayMenu = MainMenu();
+        //     }
+        // }
+        //
+        // private static bool MainMenu()
+        // {
+        //     Console.Clear();
+        //     Console.WriteLine("Choose an option:");
+        //     Console.WriteLine("1) Option 1");
+        //     Console.WriteLine("2) Option 2");
+        //     Console.WriteLine("3) Exit");
+        //     string result = Console.ReadLine();
+        //     if (result == "1")
+        //     {
+        //         PrintNumbers();
+        //         return true;
+        //     }
+        //     else if (result == "2")
+        //     {
+        //         GuessingGame();
+        //         return true;
+        //     }
+        //     else if (result == "3")
+        //     {
+        //         return false;
+        //     }
+        //     else
+        //     {
+        //         return true;
+        //     }
+        // }
 
         private static void PrintNumbers()
         {
@@ -66,13 +70,10 @@ namespace c__testing
         {
             Console.Clear();
             Console.WriteLine("Guessing game");  
-
             Random myRandom = new Random();
             int randomNumber = myRandom.Next(1, 11);
-
             int guesses = 0;
             bool incorrect = true;
-
             do
             {
                 Console.WriteLine("Guess bewtween 1 and 10: ");
@@ -84,7 +85,6 @@ namespace c__testing
                     Console.WriteLine("Incorrect");
             } while (incorrect);
             Console.WriteLine("Correct, after {0} guesses.", guesses);
-
             Console.ReadLine();
         }
 
