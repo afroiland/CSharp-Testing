@@ -7,7 +7,7 @@ namespace c__testing
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Test");
+            
 
         }
 
